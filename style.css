@@ -1,798 +1,982 @@
-    *
-    {
-        font-size: large;
-        
-    }
-    body
-    {
 
-        background: linear-gradient(170deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
-    background-repeat: no-repeat;
-    background-size: contain;
-    }
+*
+{
+	font-size: large;
+	font-family: 'Merienda Regular';
+}
 
-    /*index*/
+body
+{
+	background: linear-gradient(170deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/*form*/
+#form
+{
+	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	background-repeat: no-repeat;
+	min-width:1024px;
+	min-height: 1010px;
+}
 
-    #index
-    {
+/*index*/
+#index
+{
+	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	background-repeat: no-repeat;
+	min-width:1024px;
+	min-height: 1010px;
+}
 
-        background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-        background-repeat: no-repeat;
-        min-width:1024px;
-        min-height: 1010px;
-    }
-
-    #histoire
-    {
-    
-        background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-        background-repeat: no-repeat;
-    background-size: cover;
-    }
+#histoire
+{
+	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 #recette
 {
-    background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    background-repeat: no-repeat;
-background-size: cover;
+	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #mojito-page
 {
-    background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    background-repeat: no-repeat;
-background-size: contain;
-min-width:1024px;
-min-height: 1320px;
-
+	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-width:1024px;
+	min-height: 1320px;
 }
 
-    .logo
-    {
-        display: block;
-        background: #ffffff;
-        width: 170px;
-        height: 160px;
-        border-radius: 60%;
-        border: 1.5mm solid #d4bf79;
-        margin-left: 30px;
-        margin-top: 30px;
-    }
+.form-card
+{
+	width: 1200px;
+	height: 600px;
+	background: #fff;
+	border-radius: 40px 40px 40px 40px;
+	margin-left: 20px;
+}
+.sunset
+{
+	width: 600px;
+	height: 600px;
+	margin-top: 0;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+}
+.form-top
+{
+	display: block;
+    margin-top: -596px;
+    margin-left: 820px;
+    border: 1mm solid #d4bf79;
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+}
 
+img.form-logo
+{
+    width: 135px;
+    height: 95px;
+	margin-top: 25px;
+}
 
-    img
-    {
-        
-        width: 150px;
-        height: 100px;
-        margin-top: 30px;
-        margin-left: auto;
-    }
+.form-message
+{
+	display: block;
+	margin-top: 340px;
+	margin-left: 720px;
+	text-transform: uppercase;
+	font-size: 30%;
+}
+.form-message-text
+{
+	font-size: small;
+}
+.logo
+{
+	display: block;
+	background: #ffffff;
+	width: 170px;
+	height: 160px;
+	border-radius: 60%;
+	border: 1.5mm solid #d4bf79;
+	margin-left: 30px;
+	margin-top: 30px;
+}
 
+img
+{
+	width: 150px;
+	height: 100px;
+	margin-top: 30px;
+	margin-left: auto;
+}
 
-    .cat
-    {
-        width: 160px;
-        height: 170px;
-        margin-top: 0px;
-        margin-left: -4px;
-    }
+.cat
+{
+	width: 160px;
+	height: 170px;
+	margin-top: 0px;
+	margin-left: -4px;
+}
 
+ul
+{
+	width: 720px;
+	margin-top: -100px;
+	margin-left: 290px;
+}
 
-    ul
-    {
-    
-        width: 720px;
-        margin-top: -100px;
-        margin-left: 290px;
-    }
+li
+{
+	display: inline-block;
+	margin-top: 30px;
+	list-style-type: none;
+}
 
-    li
-    {
+a
+{
+	color: #ffffff;
+	text-decoration: none;
+	align-items: flex-start;
+	margin-left: 23px;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+	font-size: 21px;
+}
 
-        display: inline-block;
-        margin-top: 30px;
-        list-style-type: none;
-    
-    }
+a:hover
+{
+	color: #d4bf79;
+}
 
-    a
-    {
-        color: #ffffff;
-        text-decoration: none;
-        align-items: flex-start;
-        margin-left: 23px;
-        -webkit-transition: color 1s;
-        transition: color 1s;
-        font-size: 21px;
-    }
+.index-title
+{
+	margin-top: -80px;
+	margin-left: 280px;
+	color: #ffffff;
+	text-decoration: underline;
+}
 
-    a:hover
-    {
-        color: #d4bf79;
-    }
-    .index-title
-    {
-        margin-top: -80px;
-        margin-left: 280px;
-        color: #ffffff;
-        text-decoration: underline;
-    }
-    .bienvenue
-    {
-        background: rgb(131,58,180);
-        background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    width: 800px;
-    height: 500px;
-    margin-top: 110px;
-    margin-left: 300px;
-    border-radius: 5px;
-    border: 1mm solid #d4bf79;;
-    }
+.bienvenue
+{
+	display: block;
+	background: rgb(131,58,180);
+	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	width: 800px;
+	height: 500px;
+	margin-top: 110px;
+	margin-left: 300px;
+	border-radius: 5px;
+	border: 1mm solid #d4bf79;
+	
+}
 
-    .index-text
-    {
-        display: block;
-        line-height: 2em;
-        margin-top: 40px;
-        margin-left: 130px;
-        color: #ffffff;
-        font-size: larger;
-    }
-    
+.index-text
+{
+	display: block;
+	line-height: 2em;
+	margin-top: 40px;
+	margin-left: 130px;
+	color: #ffffff;
+	font-size: larger;
+}
 
-    .warning
-    {
-        width: 130px;
-        height: 130px;
-        rotate: -15deg;
-        margin-top: 30px;
-        margin-left: 15px;
+.warning
+{
+	width: 130px;
+	height: 130px;
+	rotate: -15deg;
+	margin-top: 15px;
+	margin-left: 15px;
+}
 
-    }
+.blink
+{
+	margin-top: -95px;
+	margin-left: 160px;
+	color: #ba2fbe;
+	animation: allblink 2s infinite;
+	font-weight: bold;
+	font-size: 20px;
+}
 
+@keyframes allblink
+{
+	0%
+	{
+	}
 
-        .blink 
-        {
-        margin-top: -95px;
-        margin-left: 190px;
-        color: #ba2fbe; 
-        animation: allblink 2s infinite;
-        font-weight: bold;
-        font-size: 20px;
-        }
-        @keyframes allblink { 
-        0% { }
-        50% { color:#ffffff } 
-        
-        }
-        
-    /*histoire des cocktails*/
+	50%
+	{
+	color:#ffffff }
+}
 
-    /*chapitre-1*/
-    .introduction
-    {
-        line-height: 2;
-        color: #ffffff;
-        margin-left: 110px;
-        margin-top: 130px;
-        font-size: large;
-    }
+/*histoire des cocktails*/
+/*chapitre-1*/
+.introduction
+{
+	line-height: 2;
+	color: #ffffff;
+	margin-left: 110px;
+	margin-top: 130px;
+	font-size: large;
+}
 
-    .chapitre-1
-    {
-        width: fit-content;
-        height: 300px;
-    }
-    .chapitre-2
-    {
-        width: fit-content;
-    }
-    .jerry
-    {
-        margin-top: 40px;
-        margin-left: 5px;
-        width: 230px;
+.chapitre-1
+{
+	width: fit-content;
+	height: 300px;
+}
 
-    }
+.chapitre-2
+{
+	width: fit-content;
+}
 
+.jerry
+{
+	margin-top: 40px;
+	margin-left: 5px;
+	width: 230px;
+}
 
+.guide
+{
+	margin-top: -419px;
+	margin-left: 258px;
+	width: 200px;
+}
 
-    .guide
-    {
-        margin-top: -419px;
-        margin-left: 258px;
-        width: 200px;
-    }
+/*legendes des photos*/
+.legende
+{
+	color: #fff;
+	margin-top: -22px;
+	margin-left: 15px;
+}
 
-    /*legendes des photos*/
-    .legende
-    {
-        color: #fff;
-        margin-top: -22px;
-        margin-left: 15px;
-    }
-    .legende-2
-    {
-        color: #ffffff;
-        margin-top: -10px;
-        margin-left: 20px
-    }
-    .legende-3
-    {
-        color: #ffffff;
-        margin-top: 0px;
-        margin-left: 55px;
-    }
-    .legende-4
-    {
-        color: #ffffff;
-        margin-top: 0px;
-        margin-left: 300px;
-    }
-    .legende-5
-    {
-        color: #ffffff;
-        margin-top: 0px;
-        margin-left:-250px;
-    }
-    .legende-6
-    {
-        color: #fff;
-        margin-top: 50px;
-        margin-left: 180px;
-    }
+.legende-2
+{
+	color: #ffffff;
+	margin-top: -10px;
+margin-left: 20px}
 
-    .legende-7
-    {
-        color: #fff;
-        margin-top: -30px;
-        margin-left: 460px;
-    }
-    .legende-8
-    {
-        color: #fff;
-        margin-top: -40px;
-        margin-left: 700px;
-    }
-    .legende-9
-    {
-        color: #fff;
-        margin-top: -50px;
-        margin-left: 1070px;
-    }
-    .legende-10
-    {
-        color: #ffffff;
-        margin-top: -460px;
-        margin-left: 295px;
-    }
+.legende-3
+{
+	color: #ffffff;
+	margin-top: 0px;
+	margin-left: 55px;
+}
 
-    .legende-11
-    {
-        color: #ffffff;
-        margin-top: -50px;
-        margin-left: 787px;
-    }
+.legende-4
+{
+	color: #ffffff;
+	margin-top: 0px;
+	margin-left: 300px;
+}
 
-    /*photos*/
-    .photo-1
-    {
-    width: 230px;
-    height: 250px;
-    border: 2mm ridge #d4bf79;
-    width: 230px;
-    }
+.legende-5
+{
+	color: #ffffff;
+	margin-top: 0px;
+	margin-left:-250px;
+}
 
-    .manhattan
-    {
-        width: 230px;
-    }
+.legende-6
+{
+	color: #fff;
+	margin-top: 50px;
+	margin-left: 180px;
+}
 
-    .vodka-martini
-    {
-        width: 200px;
-    }
-    .photo-2
-    {
-        width: 160px;
-        height: 250px;
-        border: 2mm ridge #d4bf79; 
-    }
-    .lesDébuts
-    {
-        flex-direction: column;
-        display: flex;
-        line-height: 1.6;
-        color: #ffffff;
-        margin-top: -370px;
-        margin-left: 470px;
-    
-    }
+.legende-7
+{
+	color: #fff;
+	margin-top: -30px;
+	margin-left: 460px;
+}
 
-    h2
-    {
-        text-decoration: underline;
-    }
+.legende-8
+{
+	color: #fff;
+	margin-top: -40px;
+	margin-left: 700px;
+}
 
+.legende-9
+{
+	color: #fff;
+	margin-top: -50px;
+	margin-left: 1070px;
+}
 
-    .cocktail-1
-    {
-    margin-top: 170px;
-    margin-left: 5px;
-    display: flex;
-    width: 180px;
-    height: 250px;
-    border: 2mm ridge #d4bf79;
-    }
+.legende-10
+{
+	color: #ffffff;
+	margin-top: 30px;
+	margin-left: 285px;
+}
 
+.legende-11
+{
+	color: #ffffff;
+	margin-top: -50px;
+	margin-left: 787px;
+}
+.legende-12
+{
+	color: #fff;
+	margin-top: 490px;
+    margin-left: 320px;
+}
 
-    .cocktail-2
-    {
-        margin-top: -320px;
-        margin-left: 230px;
-        display: flex;
-        width: 180px;
-        height: 250px;
-        border: 2mm ridge #d4bf79;
-    }
+.legende-13
+{
+	color: #fff;
+	margin-top: 410px;
+	margin-left: 780px;
+}
+/*photos*/
+.photo-1
+{
+	width: 230px;
+	height: 250px;
+	border: 2mm ridge #d4bf79;
+	width: 230px;
+}
 
+.manhattan
+{
+	width: 230px;
+}
 
-    .histoire-4-pictures
-    {
-        display: flex;
-      
-    }
+.vodka-martini
+{
+	width: 200px;
+}
 
+.photo-2
+{
+	width: 160px;
+	height: 250px;
+	border: 2mm ridge #d4bf79;
+}
 
-    .prohibition
-    {
-        margin-top: -220px;
-        margin-left: 290px;
-        width: 200px;
+.lesDébuts
+{
+    display: block;
+    line-height: 1.6;
     color: #ffffff;
-    }
+    margin-top: -370px;
+    margin-left: 470px;
+}
+
+.cocktail-1
+{
+	margin-top: 170px;
+	margin-left: 5px;
+	display: flex;
+	width: 180px;
+	height: 250px;
+	border: 2mm ridge #d4bf79;
+}
+
+.cocktail-2
+{
+	margin-top: -320px;
+	margin-left: 230px;
+	display: flex;
+	width: 180px;
+	height: 250px;
+	border: 2mm ridge #d4bf79;
+}
+
+.histoire-4-pictures
+{
+	display: flex;
+	margin-top: 80px;
+}
+
+.prohibition
+{
+	margin-top: -220px;
+	margin-left: 290px;
+	width: 200px;
+	color: #ffffff;
+}
+
+.prohibition-text
+{
+	line-height: 200%;
+	margin-top: -320px;
+	margin-left: 456px;
+	color: #ffffff;
+	display: block;
+}
+
+.history
+{
+	margin-top: 280px;
+	margin-left: -285px;
+	display: flex;
+	width: 405px;
+	height: 220px;
+	border: 2mm ridge #d4bf79;
+}
+
+.histoire-2
+{
+	flex-direction: column;
+	display: flex;
+	line-height: 2;
+	color: #fff;
+	margin-top: -440px;
+	margin-left: 460px;
+}
+
+.histoire-3
+{
+	line-height: 2;
+	color: #ffffff;
+	margin-left: 100px;
+	margin-top: 760px;
+}
+
+.histoire-3-pictures
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-left: 140px;
+	height: 240px;
+}
+
+.mai
+{
+	width: 200px;
+	height: 235px;
+	margin-left: -30px;
+	border: 2mm ridge #d4bf79;
+}
+
+.grass
+{
+	width: 300px;
+	height: 235px;
+	margin-left: 20px;
+	border: 2mm ridge #d4bf79;
+}
+
+.james-bond
+{
+	width: 300px;
+	height: 235px;
+	margin-left: 20px;
+	border: 2mm ridge #d4bf79;
+}
+
+.mad
+{
+	width: 300px;
+	height: 235px;
+	margin-left: 20px;
+	border: 2mm ridge #d4bf79;
+}
+
+.histoire-4
+{
+	display: block;
+    line-height: 2;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 380px;
+}
 
 
-    .prohibition-text
-    {
-        line-height: 200%;
-        margin-top: -320px;
-        margin-left: 456px;
-        color: #ffffff;
-        display: block;
-    }
+.histoire-4-1
+{
+	margin-top: 20px;
+}
 
+.sex
+{
+	width: 200px;
+	height: 180px;
+	border-radius: 50%;
+	border: 1.2mm solid  #f0eded;
+	margin-left: 260px;
+}
 
-    .history
-    {
-        margin-top: 280px;
-        margin-left: -285px;
-        display: flex;
-        width: 405px;
-        height: 220px;
-        border: 2mm ridge #d4bf79;
-    }
-
-    .histoire-2
-    {
-        flex-direction: column;
-        display: flex;
-        line-height: 2;
-        color: #fff;
-        margin-top: -700px;
-        margin-left: 460px;
-    }
-        
-    .histoire-3
-    {
-        line-height: 2;
-        color: #ffffff;
-        margin-left: 100px;
-        margin-top: 630px;
-    }
-
-    .histoire-3-pictures
-    {
-        display: flex;
-        flex-direction: row;
-        margin-top: 20px;
-        margin-left: 140px;
-        height: 240px;
-    }
-
-    .mai
-    {
-        width: 200px;
-        height: 235px;
-        margin-left: -30px;
-        border: 2mm ridge #d4bf79;
-
-    }
-    .grass 
-    {
-        width: 300px;
-        height: 235px;
-        margin-left: 20px;
-        border: 2mm ridge #d4bf79;
-    }
-    .james-bond
-    {
-        width: 300px;
-        height: 235px;
-        margin-left: 20px;
-        border: 2mm ridge #d4bf79;
-    }
-    .mad
-    {
-        width: 300px;
-        height: 235px;
-        margin-left: 20px;
-        border: 2mm ridge #d4bf79;  
-    }
-    .histoire-4
-    {
-        line-height: 2;
-        color: #ffffff;
-        margin-left: 140px;
-        margin-top: 200px;
-    }
-
-    .histoire-4-1
-    {
-
-        margin-top: 20px;
-
-    }
-    .sex
-    {
-        width: 200px;
-        height: 180px;
-        border-radius: 50%;
-        border: 1.2mm solid  #f0eded;
-        margin-left: 260px;
-    }
-    .cosmo
-    {
-        width: 200px;
-        height: 180px;
-        border-radius: 50%;
-        border: 1.2mm solid #f0eded;
-        margin-left: 200px;
-    }
+.cosmo
+{
+	width: 200px;
+	height: 180px;
+	border-radius: 50%;
+	border: 1.2mm solid #f0eded;
+	margin-left: 200px;
+}
 
 .histoire-5
 {
-    margin-top: 100px;
-    line-height: 2;
+	display: block;
+	margin-top: 100px;
+	line-height: 2;
 }
 
 .histoire-5-pictures
 {
-    margin-top: 1px;
-    margin-left: 90px;
+	margin-top: 1px;
+	margin-left: 90px;
 }
 
 .margarita
 {
-    width: 200px;
-    height: 180px;
-    border-radius: 50%;
-    border: 1.2mm solid #f0eded;
-    margin-left: 169px;
+	width: 200px;
+	height: 180px;
+	border-radius: 50%;
+	border: 1.2mm solid #f0eded;
+	margin-left: 169px;
 }
+
 .blue-lagoon
 {
-    width: 200px;
-    height: 180px;
-    border-radius: 50%;
-    border: 1.2mm solid #f0eded;
-    margin-left: 257px;
+	width: 200px;
+	height: 180px;
+	border-radius: 50%;
+	border: 1.2mm solid #f0eded;
+	margin-left: 257px;
 }
+
 .histoire-6
 {
-    margin-top: 430px;
-    line-height: 2;
+	display: block;
+	margin-top: 100px;
+	line-height: 2;
 }
 
 .histoire-6-pictures
 {
-    display: flex;
-    margin-top: 80px;
-    margin-left: 160px;
-    width: 820px;
+	display: flex;
+	margin-top: 80px;
+	margin-left: 160px;
+	width: 820px;
 }
 
 .old, .negroni , .tom
 {
-    width: 200px;
-    height: 180px;
-    border: 1.2mm solid#f0eded;
-    border-radius: 50%;
+	width: 200px;
+	height: 180px;
+	border: 1.2mm solid#f0eded;
+	border-radius: 50%;
 }
 
 .histoire-7
 {
-    margin-top: 100px;
-    line-height: 2;
+	margin-top: 100px;
+	line-height: 2;
 }
+
 .histoire-7-picture
 {
-    margin-top: 40px;
-    margin-left: 500px;
+	margin-top: 25px;
+	margin-left: 500px;
 }
+
 .mixo
 {
-    width: 200px;
-    height: 180px;
-    border: 1.2mm solid#f0eded;
-    border-radius: 50%;
+	width: 200px;
+	height: 180px;
+	border: 1.2mm solid#f0eded;
+	border-radius: 50%;
 }
+
 .legende-12
 {
-margin-top: 0px;
-margin-left: 270px;
+	margin-top: 0px;
+	margin-left: 325px;
 }
+
 .legende-13
 {
-    margin-top: -60px;
-    margin-left: 580px;
+	margin-top: -55px;
+	margin-left: 570px;
 }
+
 .legende-14
 {
-    margin-top: -60px;
-    margin-left: 830px;
+	margin-top: -60px;
+	margin-left: 830px;
 }
 
 .legende-15
 {
-    margin-top: -15px;
-    margin-left: 460px;
+	margin-top: -15px;
+	margin-left: 460px;
 }
 
-    /*Carte des Cocktails*/
+/*Carte des Cocktails*/
+.cards
+{
+	background: linear-gradient(170deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 2mm solid #d4bf79;
+	border-radius: 5%;
+	width: 250px;
+	height: 350px;
+	display: inline-block;
+	align-items: flex-start;
+	align-content: space-around;
+	margin-top: 100px;
+	margin-left: 65px;
+}
 
-
-    .cards
-    {
-        background: url("./resources/tropical.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        border: 2mm solid #fcb045;
-        border-radius: 5%;
-        width: 250px;
-        height: 350px;
-        display: inline-block;
-        align-items: flex-start;
-        align-content: space-around;
-        margin-top: 100px;
-        margin-left: 65px;
-        
-    }
-
-    .cocktail-card
-    {
-        display: flex;
-        width: 200px;
-        height: 200px;
-        margin-top: 10px;
-        margin-left: 20px;
-        border-radius: 5%;
-        border: 2mm solid #ba2fbe;
-    }
+.cocktail-card
+{
+	display: flex;
+	width: 180px;
+	height: 180px;
+	margin-top: 20px;
+	margin-left: 28px;
+	border-radius: 5%;
+	border: 2mm solid #ba2fbe;
+}
 
 .cocktail-name
 {
-    font-family: 'Merienda Regular';
-    color: #ffffff;
-    margin-top: 0px;
-    margin-left: 90px;
+	display: flex;
+	font-family: 'Merienda Regular';
+	flex-wrap: wrap;
+	margin-top: auto;
+	margin-left: auto;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	color: #ffffff;
 }
 
-button 
+button
 {
-   background: url('../tropical.png');
-   color: #ffffff;
-   width: 120px;
-   height: 50px;
-   margin-left: 60px;
-   border: 1mm solid #ba2fbe;
-   border-radius: 200%;
-   
+	display: flex;
+	padding: 1.1em 2em;
+	background: #fcb045;
+	border: 2px solid #fcb045;
+	font-size: 15px;
+	color: #ba2fbe;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s;
+	border-radius: 40px 40px 40px 40px;
+	font-weight: bolder;
+	text-transform:capitalize;
+	box-shadow: 0 2px 0 2px #ba2fbe;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
 }
+
+button:before
+{
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 120%;
+	background-color: #fff;
+	top: 50%;
+	transform: skewX(30deg) translate(-150%, -50%);
+	transition: all 0.5s;
+}
+
 button:hover
 {
-   background: #fcb045;
+	background-color: #ba2fbe;
+	color: #fcb045;
+	box-shadow: 0 2px 0 2px #ba2fbe;
+}
+
+button:hover::before
+{
+	transform: skewX(30deg) translate(150%, -50%);
+	transition-delay: 0.1s;
+}
+
+.button:active
+{
+	transform: scale(0.9);
+}
+
+a.btn.btn-primary
+{
+	display: flex;
+	margin-top: 20px;
+	width: 20px;
+	height: 20px;
+	background: #000;
+}
+
+
+
+.arrow
+{
+	width: 90px;
+	height: 90px;
 }
 
 /*Mojito-page*/
 ol
 {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .mojito-title
 {
-    
-    margin-top: -386px;
-    margin-left: 350px;
-}
-p.name
-{
-    color: #fff;
-    font-size: 33px;
-    text-decoration: underline;
-}
-.cat-bar
-{
-    display: flex;
-    width: 100px;
-    height: 90px;
-    margin-top: 35px;
-    margin-left: -400px;
+	margin-top: -386px;
+	margin-left: 350px;
+	color: #fff;
+	font-family: Merienda Regular;
+	text-decoration: underline 1mm;
 }
 
+p.name
+{
+	color: #fff;
+	font-size: 33px;
+	text-decoration: underline;
+}
+
+.cat-bar
+{
+	display: flex;
+	width: 100px;
+	height: 90px;
+	margin-top: 35px;
+	margin-left: -400px;
+}
 
 .mojito-card
 {
-    background-color: #ba2fbe;
-    width: 800px;
-    height: 800px;
-    margin-top: 120px;
-    margin-left: 270px;
-    border: 1mm solid #d4bf79;
-    border-radius: 5%;
+	background-color: #ba2fbe;
+	width: 800px;
+	height: 800px;
+	margin-top: 120px;
+	margin-left: 270px;
+	border: 1mm solid #d4bf79;
+	border-radius: 5%;
 }
+
 .mojito-recipe-history
 {
-    margin-top: 50px;
-    margin-left: 350px;
-    width: 430px;
-    line-height: 2.2;
+	margin-top: 50px;
+	margin-left: 350px;
+	width: 430px;
+	line-height: 2.2;
 }
-    
+
 .mojito-recipe-title
 {
-    margin-top: -280px;
-    margin-left: 520px;
-    color: #fff;
-    text-decoration: underline;
-    font-family: 'Merienda Regular';
+	margin-top: -280px;
+	margin-left: 520px;
+	color: #fff;
+	text-decoration: underline 1mm;
+	font-family: 'Merienda Regular';
+}
 
+.mojito-t
+{
+	font-size: 19px;
 }
 
 .mojito-text
 {
-    color: #fff;
-    font-family: 'Merienda Regular';
+	color: #fff;
+	font-family: 'Merienda Regular';
 }
+
 .mojito-picture
 {
-    width: 270px;
-    height: 270px;
-    border: 2mm solid #d4bf79;
-    border-radius: 5%;
-    margin-top: 100px;
-    margin-left: 20px;
+	width: 270px;
+	height: 270px;
+	border: 2mm solid #d4bf79;
+	border-radius: 5%;
+	margin-top: 100px;
+	margin-left: 20px;
 }
 
 .mojito-video
 {
-    width: 269px;
-    height: 186px;
-    border: 2mm solid #d4bf79;
-    margin-top: 120px;
-    margin-left: 18px;
+	width: 269px;
+	height: 186px;
+	border: 2mm solid #d4bf79;
+	margin-top: 120px;
+	margin-left: 18px;
 }
+
 video
 {
-    margin-top: -34px;
-    margin-left: 0px;
+	margin-top: -34px;
+	margin-left: 0px;
 }
+
 .mojito-recipe
 {
-   
-    line-height: 2;
-    font-family: 'Merienda Regular';
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: -50px;
-    margin-left: 380px;
-    color: #fff;
+	line-height: 2;
+	font-family: 'Merienda Regular';
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: -50px;
+	margin-left: 380px;
+	color: #fff;
 }
+
 .message
 {
-    margin-top: 35px;
-    margin-left: -490px;
-    width: 1350px;
-    height: 141px;
- 
+	margin-top: 35px;
+	margin-left: -490px;
+	width: 1350px;
+	height: 141px;
 }
+
 h2
 {
-    margin-top: -216px;
-    margin-left: 500px;
-    color: #fff;
-    text-decoration: underline;
-    font-family: 'Merienda Regular';
+	display: block;
+	margin-top: -216px;
+	margin-left: 270px;
+	color: #fff;
+	text-decoration: underline;
+	font-family: 'Merienda Regular';
+}
+
+.up
+{
+	margin-top: 130px;
+	border: 2mm solid #d4bf79;
+	border-radius: 50%;
+	width: 80px;
+	height: 55px;
+	margin-left: 1150px;
+    
 }
 
 /*cuba-libre-page*/
-
 .cuba-recipe-history
 {
-    margin-top: -15px;
-    margin-left: 350px;
-    width: 430px;
-    line-height: 2.2;
-    font-size: 33px;
+	margin-top: -15px;
+	margin-left: 350px;
+	width: 430px;
+	line-height: 2.2;
+	font-size: 33px;
 }
-    
 
 .cuba-text
 {
-    color: #fff;
-    font-family: 'Merienda Regular';
+	color: #fff;
+	font-family: 'Merienda Regular';
 }
+
 .cuba-picture
 {
-    width: 270px;
-    height: 270px;
-    border: 2mm solid #d4bf79;
-    border-radius: 5%;
-    margin-top: 100px;
-    margin-left: 20px;
+	width: 270px;
+	height: 270px;
+	border: 2mm solid #d4bf79;
+	border-radius: 5%;
+	margin-top: 100px;
+	margin-left: 20px;
 }
 
 .cuba-video
 {
-    width: 269px;
-    height: 186px;
-    border: 2mm solid #d4bf79;
-    margin-top: 55px;
-    margin-left: 18px;
+	width: 269px;
+	height: 186px;
+	border: 2mm solid #d4bf79;
+	margin-top: 55px;
+	margin-left: 18px;
 }
+
 video
 {
-    margin-top: -34px;
-    margin-left: 0px;
+	margin-top: -34px;
+	margin-left: 0px;
 }
+
 .cuba-recipe
 {
-   
-    line-height: 1;
-    font-family: 'Merienda Regular';
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: -199px;
-    margin-left: 320px;
-    color: #fff;
+	line-height: 1;
+	font-family: 'Merienda Regular';
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: -199px;
+	margin-left: 320px;
+	color: #fff;
 }
 
 .cuba-recipe-title
 {
-    display: flex;
-    margin-top: -20px;
-    margin-left: -20px;
+	display: flex;
+	margin-top: -20px;
+	margin-left: -20px;
+	text-decoration: underline 1mm;
+	color: #fff;
 }
+
 .message-2
 {
- 
-    margin-top: 65px;
-    margin-left: -75px;
-    width: 1350px;
-    height: 141px;
-}  
-
+	margin-top: 65px;
+	margin-left: -75px;
+	width: 1350px;
+	height: 141px;
+}
 
 .cat-bar-2
 {
-    display: flex;
-    width: 100px;
-    height: 90px;
-    margin-top: 55px;
-    margin-left: 1px;
+	display: flex;
+	width: 100px;
+	height: 90px;
+	margin-top: 95px;
+	margin-left: 1px;
+}
+
+/*daiquiri-page*/
+.daiquiri-t
+{
+	font-size: 15px;
+}
+
+.message-3
+{
+	margin-top: 65px;
+	margin-left: -75px;
+	width: 1350px;
+	height: 141px;
+}
+
+.cat-bar-3
+{
+	display: flex;
+	width: 100px;
+	height: 90px;
+	margin-top: 100px;
+	margin-left: 1px;
+}
+
+.daiquiri-recipe
+{
+	line-height: 1;
+	font-family: 'Merienda Regular';
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: -199px;
+	margin-left: 370px;
+	color: #fff;
 }
