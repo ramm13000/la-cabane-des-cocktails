@@ -3,6 +3,35 @@
 {
 	font-size: large;
 	font-family: 'Merienda Regular';
+	::-webkit-scrollbar {
+		height: 15px;
+		width: 15px;
+	  }
+      ::-webkit-scrollbar-track {
+		border-radius: 5px;
+		background-color: #fcb045;
+	  }
+	  
+	  ::-webkit-scrollbar-track:hover {
+		background-color: #d4bf79;
+	  }
+	  
+	  ::-webkit-scrollbar-track:active {
+		background-color: #fcb045;
+	  }
+	  
+	  ::-webkit-scrollbar-thumb {
+		border-radius: 5px;
+		background-color: #ba2fbe;
+	  }
+	  
+	  ::-webkit-scrollbar-thumb:hover {
+		background-color: #62A34B;
+	  }
+	  
+	  ::-webkit-scrollbar-thumb:active {
+		background-color: #62A34B;
+	  }
 }
 
 body
@@ -11,14 +40,7 @@ body
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-/*form*/
-#form
-{
-	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-	background-repeat: no-repeat;
-	min-width:1024px;
-	min-height: 1010px;
-}
+
 
 /*index*/
 #index
@@ -52,52 +74,8 @@ body
 	min-height: 1320px;
 }
 
-.form-card
-{
-	width: 1200px;
-	height: 600px;
-	background: #fff;
-	border-radius: 40px 40px 40px 40px;
-	margin-left: 20px;
-}
-.sunset
-{
-	width: 600px;
-	height: 600px;
-	margin-top: 0;
-	border-top-left-radius: 40px;
-	border-bottom-left-radius: 40px;
-}
-.form-top
-{
-	display: block;
-    margin-top: -596px;
-    margin-left: 820px;
-    border: 1mm solid #d4bf79;
-    width: 160px;
-    height: 150px;
-    border-radius: 50%;
-}
 
-img.form-logo
-{
-    width: 135px;
-    height: 95px;
-	margin-top: 25px;
-}
 
-.form-message
-{
-	display: block;
-	margin-top: 340px;
-	margin-left: 720px;
-	text-transform: uppercase;
-	font-size: 30%;
-}
-.form-message-text
-{
-	font-size: small;
-}
 .logo
 {
 	display: block;
@@ -122,15 +100,14 @@ img
 {
 	width: 160px;
 	height: 170px;
-	margin-top: 0px;
+	margin-top: 20px;
 	margin-left: -4px;
 }
 
 ul
 {
-	width: 720px;
 	margin-top: -100px;
-	margin-left: 290px;
+	margin-left: 210px;
 }
 
 li
@@ -138,6 +115,7 @@ li
 	display: inline-block;
 	margin-top: 30px;
 	list-style-type: none;
+	font-size: 16px;
 }
 
 a
@@ -170,10 +148,10 @@ a:hover
 	background: rgb(131,58,180);
 	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 	width: 800px;
-	height: 500px;
+	height: 600px;
 	margin-top: 110px;
 	margin-left: 300px;
-	border-radius: 5px;
+	border-radius: 5px 5px 5px 5px;
 	border: 1mm solid #d4bf79;
 	
 }
@@ -182,7 +160,7 @@ a:hover
 {
 	display: block;
 	line-height: 2em;
-	margin-top: 40px;
+	margin-top: 70px;
 	margin-left: 130px;
 	color: #ffffff;
 	font-size: larger;
@@ -193,18 +171,27 @@ a:hover
 	width: 130px;
 	height: 130px;
 	rotate: -15deg;
-	margin-top: 15px;
+	margin-top: -5px;
 	margin-left: 15px;
 }
 
-.blink
+#index-blink
 {
 	margin-top: -95px;
-	margin-left: 160px;
+	margin-left: 170px;
 	color: #ba2fbe;
 	animation: allblink 2s infinite;
 	font-weight: bold;
 	font-size: 20px;
+}
+.blink
+{
+    margin-top: -65px;
+    margin-left: 290px;
+    color: #ba2fbe;
+    animation: allblink 2s infinite;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 @keyframes allblink
@@ -249,7 +236,7 @@ a:hover
 
 .guide
 {
-	margin-top: -419px;
+	margin-top: -445px;
 	margin-left: 258px;
 	width: 200px;
 }
@@ -259,14 +246,15 @@ a:hover
 {
 	color: #fff;
 	margin-top: -22px;
-	margin-left: 15px;
+	margin-left: 1px;
 }
 
 .legende-2
 {
 	color: #ffffff;
 	margin-top: -10px;
-margin-left: 20px}
+    margin-left: -1px
+}
 
 .legende-3
 {
@@ -279,69 +267,62 @@ margin-left: 20px}
 {
 	color: #ffffff;
 	margin-top: 0px;
-	margin-left: 300px;
+	margin-left: 280px;
 }
 
 .legende-5
 {
 	color: #ffffff;
 	margin-top: 0px;
-	margin-left:-250px;
+	margin-left:-280px;
 }
 
 .legende-6
 {
-	color: #fff;
-	margin-top: 50px;
-	margin-left: 180px;
+	color: #ffffff;
+	margin-top: 60px;
+	margin-left:180px;
 }
-
 .legende-7
 {
-	color: #fff;
-	margin-top: -30px;
-	margin-left: 460px;
+	color: #ffffff;
+	margin-top: -40px;
+	margin-left:445px;
 }
-
 .legende-8
 {
-	color: #fff;
+	color: #ffffff;
 	margin-top: -40px;
-	margin-left: 700px;
+	margin-left:680px;
 }
-
 .legende-9
 {
-	color: #fff;
-	margin-top: -50px;
-	margin-left: 1070px;
-}
-
-.legende-10
-{
 	color: #ffffff;
-	margin-top: 30px;
-	margin-left: 285px;
+	margin-top: -45px;
+	margin-left:1045px;
 }
 
-.legende-11
+.histoire-4-legende , .histoire-5-legende 
 {
-	color: #ffffff;
-	margin-top: -50px;
-	margin-left: 787px;
-}
-.legende-12
-{
-	color: #fff;
-	margin-top: 490px;
-    margin-left: 320px;
+	display: inline-flex;
+    align-items: flex-start;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 125px;
+    width: 950px;
 }
 
-.legende-13
+.histoire-6-legende
 {
 	color: #fff;
-	margin-top: 410px;
-	margin-left: 780px;
+	display: inline-flex;
+    align-items: flex-start;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    width: 850px;
 }
 /*photos*/
 .photo-1
@@ -374,7 +355,7 @@ margin-left: 20px}
     display: block;
     line-height: 1.6;
     color: #ffffff;
-    margin-top: -370px;
+    margin-top: -445px;
     margin-left: 470px;
 }
 
@@ -415,7 +396,7 @@ margin-left: 20px}
 .prohibition-text
 {
 	line-height: 200%;
-	margin-top: -320px;
+	margin-top: -350px;
 	margin-left: 456px;
 	color: #ffffff;
 	display: block;
@@ -437,7 +418,7 @@ margin-left: 20px}
 	display: flex;
 	line-height: 2;
 	color: #fff;
-	margin-top: -440px;
+	margin-top: -550px;
 	margin-left: 460px;
 }
 
@@ -557,15 +538,16 @@ margin-left: 20px}
 .histoire-6
 {
 	display: block;
-	margin-top: 100px;
+	margin-top: 80px;
 	line-height: 2;
+	color: #fff;
 }
 
 .histoire-6-pictures
 {
 	display: flex;
 	margin-top: 80px;
-	margin-left: 160px;
+	margin-left: 250px;
 	width: 820px;
 }
 
@@ -581,12 +563,13 @@ margin-left: 20px}
 {
 	margin-top: 100px;
 	line-height: 2;
+	color: #fff;
 }
 
 .histoire-7-picture
 {
 	margin-top: 25px;
-	margin-left: 500px;
+	margin-left: 590px;
 }
 
 .mixo
@@ -597,29 +580,14 @@ margin-left: 20px}
 	border-radius: 50%;
 }
 
-.legende-12
+.legende-10
 {
+	color: #fff;
 	margin-top: 0px;
-	margin-left: 325px;
+	margin-left: 520px;
 }
 
-.legende-13
-{
-	margin-top: -55px;
-	margin-left: 570px;
-}
 
-.legende-14
-{
-	margin-top: -60px;
-	margin-left: 830px;
-}
-
-.legende-15
-{
-	margin-top: -15px;
-	margin-left: 460px;
-}
 
 /*Carte des Cocktails*/
 .cards
@@ -635,7 +603,7 @@ margin-left: 20px}
 	align-items: flex-start;
 	align-content: space-around;
 	margin-top: 100px;
-	margin-left: 65px;
+	margin-left: 250px;
 }
 
 .cocktail-card
@@ -677,7 +645,6 @@ button
 	border-radius: 40px 40px 40px 40px;
 	font-weight: bolder;
 	text-transform:capitalize;
-	box-shadow: 0 2px 0 2px #ba2fbe;
 	margin: auto;
 	align-items: center;
 	justify-content: center;
@@ -699,7 +666,7 @@ button:hover
 {
 	background-color: #ba2fbe;
 	color: #fcb045;
-	box-shadow: 0 2px 0 2px #ba2fbe;
+
 }
 
 button:hover::before
@@ -739,8 +706,8 @@ ol
 
 .mojito-title
 {
-	margin-top: -386px;
-	margin-left: 350px;
+	margin-top: -430px;
+	margin-left: 770px;
 	color: #fff;
 	font-family: Merienda Regular;
 	text-decoration: underline 1mm;
@@ -758,33 +725,34 @@ p.name
 	display: flex;
 	width: 100px;
 	height: 90px;
-	margin-top: 35px;
-	margin-left: -400px;
+	margin-top: 15px;
+	margin-left: -320px;
 }
 
 .mojito-card
 {
 	background-color: #ba2fbe;
-	width: 800px;
-	height: 800px;
+	width: 1200px;
+	height: 410px;
 	margin-top: 120px;
-	margin-left: 270px;
-	border: 1mm solid #d4bf79;
-	border-radius: 5%;
+	margin-left: 100px;
+	border: 2mm solid #d4bf79;
+	border-radius: 5px 5px;
 }
 
 .mojito-recipe-history
 {
-	margin-top: 50px;
-	margin-left: 350px;
-	width: 430px;
-	line-height: 2.2;
+    margin-top: -10px;
+    margin-left: 451px;
+    width: 700px;
 }
+
+
 
 .mojito-recipe-title
 {
-	margin-top: -280px;
-	margin-left: 520px;
+	margin-top: -190px;
+	margin-left: 600px;
 	color: #fff;
 	text-decoration: underline 1mm;
 	font-family: 'Merienda Regular';
@@ -792,7 +760,8 @@ p.name
 
 .mojito-t
 {
-	font-size: 19px;
+	font-size: 17px;
+	margin-left: 20px;
 }
 
 .mojito-text
@@ -803,21 +772,20 @@ p.name
 
 .mojito-picture
 {
-	width: 270px;
-	height: 270px;
+	width: 400px;
+	height: 400px;
 	border: 2mm solid #d4bf79;
-	border-radius: 5%;
-	margin-top: 100px;
-	margin-left: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
 }
 
 .mojito-video
 {
-	width: 269px;
-	height: 186px;
+	width: 230px;
+	height: 180px;
 	border: 2mm solid #d4bf79;
-	margin-top: 120px;
-	margin-left: 18px;
+	margin-top: -5px;
+	margin-left: 860px;
 }
 
 video
@@ -828,13 +796,13 @@ video
 
 .mojito-recipe
 {
-	line-height: 2;
+	line-height: 0;
 	font-family: 'Merienda Regular';
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	margin-top: -50px;
-	margin-left: 380px;
+	margin-top: -35px;
+	margin-left: 460px;
 	color: #fff;
 }
 
