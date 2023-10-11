@@ -186,7 +186,7 @@ a:hover
 }
 .blink
 {
-    margin-top: -65px;
+    margin-top: -40px;
     margin-left: 290px;
     color: #ba2fbe;
     animation: allblink 2s infinite;
@@ -716,7 +716,7 @@ ol
 p.name
 {
 	color: #fff;
-	font-size: 33px;
+	font-size: 24px;
 	text-decoration: underline;
 }
 
@@ -728,7 +728,14 @@ p.name
 	margin-top: 15px;
 	margin-left: -320px;
 }
-
+.cat-bar-2
+{
+	display: flex;
+	width: 100px;
+	height: 90px;
+	margin-top: 15px;
+	margin-left: 320px;
+}
 .mojito-card
 {
 	background-color: #ba2fbe;
@@ -808,7 +815,7 @@ video
 
 .message
 {
-	margin-top: 35px;
+	margin-top: 15px;
 	margin-left: -490px;
 	width: 1350px;
 	height: 141px;
@@ -817,8 +824,6 @@ video
 h2
 {
 	display: block;
-	margin-top: -216px;
-	margin-left: 270px;
 	color: #fff;
 	text-decoration: underline;
 	font-family: 'Merienda Regular';
@@ -838,17 +843,18 @@ h2
 /*cuba-libre-page*/
 .cuba-recipe-history
 {
-	margin-top: -15px;
-	margin-left: 350px;
-	width: 430px;
-	line-height: 2.2;
-	font-size: 33px;
+	margin-top: 10px;
+    margin-left: 460px;
+    width: 700px;
 }
 
 .cuba-text
 {
 	color: #fff;
-	font-family: 'Merienda Regular';
+    font-family: 'Merienda Regular';
+    font-size: 39px;
+    line-height: 1;
+    display: inline-block;
 }
 
 .cuba-picture
@@ -863,11 +869,11 @@ h2
 
 .cuba-video
 {
-	width: 269px;
+	width: 230px;
 	height: 186px;
 	border: 2mm solid #d4bf79;
-	margin-top: 55px;
-	margin-left: 18px;
+	margin-top: -5px;
+	margin-left: 860px;
 }
 
 video
@@ -878,40 +884,40 @@ video
 
 .cuba-recipe
 {
-	line-height: 1;
+	line-height: 0;
 	font-family: 'Merienda Regular';
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	margin-top: -199px;
-	margin-left: 320px;
+	margin-top: -35px;
+	margin-left: 460px;
 	color: #fff;
 }
 
 .cuba-recipe-title
 {
 	display: flex;
-	margin-top: -20px;
-	margin-left: -20px;
+	margin-top: -190px;
+	margin-left: 570px;
 	text-decoration: underline 1mm;
 	color: #fff;
 }
 
 .message-2
 {
-	margin-top: 65px;
-	margin-left: -75px;
-	width: 1350px;
+	margin-top: -50px;
+	margin-left: 30px;
+	width: 990px;
 	height: 141px;
 }
 
-.cat-bar-2
+.cat-bar-3
 {
 	display: flex;
 	width: 100px;
 	height: 90px;
-	margin-top: 95px;
-	margin-left: 1px;
+	margin-top: 100px;
+	margin-left: 160px;
 }
 
 /*daiquiri-page*/
@@ -922,29 +928,87 @@ video
 
 .message-3
 {
-	margin-top: 65px;
-	margin-left: -75px;
-	width: 1350px;
+	margin-top: -40px;
+	margin-left: -5px;
+	width: 990px;
 	height: 141px;
 }
 
-.cat-bar-3
+.cat-bar-4
 {
 	display: flex;
 	width: 100px;
 	height: 90px;
-	margin-top: 100px;
-	margin-left: 1px;
+	margin-top: 40px;
+	margin-left: 160px;
+}
+.daiquiri-recipe-history
+{
+	display: block;
+    width: 760px;
+	margin-top: -25px;
+    margin-left: 430px;
+	line-height: 0.4;
+
 }
 
 .daiquiri-recipe
 {
-	line-height: 1;
+	line-height: 0.4;
 	font-family: 'Merienda Regular';
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	margin-top: -199px;
-	margin-left: 370px;
+	margin-top: -30px;
+	margin-left: 470px;
 	color: #fff;
+}
+
+.daiquiri-video
+{
+	width: 230px;
+	height: 186px;
+	border: 2mm solid #d4bf79;
+	margin-top: 5px;
+	margin-left: 860px;
+}
+
+/*margarita*/
+
+.margarita-t
+{
+	font-size: 15px;
+}
+
+.margarita-recipe-title
+{
+	display: flex;
+	margin-top: -215px;
+	margin-left: 570px;
+	text-decoration: underline 1mm;
+	color: #fff;	
+}
+.margarita-recipe
+{
+	line-height: 0.4;
+	font-family: 'Merienda Regular';
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: -30px;
+	margin-left: 490px;
+	color: #fff;
+}
+
+/*planter's punch*/
+
+.planter-history
+{
+	display: block;
+    width: 760px;
+    margin-top: 30px;
+    margin-left: 5px;
+    line-height: 1.3;
+    color: #fff;
+
 }
