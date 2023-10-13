@@ -1,1113 +1,1259 @@
 
-*
-{
-	font-size: large;
-	font-family: 'Merienda Regular';
-	::-webkit-scrollbar {
-		height: 15px;
-		width: 15px;
-	  }
-      ::-webkit-scrollbar-track {
-		border-radius: 5px;
-		background-color: #fcb045;
-	  }
-	  
-	  ::-webkit-scrollbar-track:hover {
-		background-color: #d4bf79;
-	  }
-	  
-	  ::-webkit-scrollbar-track:active {
-		background-color: #fcb045;
-	  }
-	  
-	  ::-webkit-scrollbar-thumb {
-		border-radius: 5px;
-		background-color: #ba2fbe;
-	  }
-	  
-	  ::-webkit-scrollbar-thumb:hover {
-		background-color: #62A34B;
-	  }
-	  
-	  ::-webkit-scrollbar-thumb:active {
-		background-color: #62A34B;
-	  }
-}
-
-body
-{
-	background: linear-gradient(170deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
-	background-repeat: no-repeat;
-	background-size: contain;
-}
-
-
-/*index*/
-#index
-{
-	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-	background-repeat: no-repeat;
-	min-width:1024px;
-	min-height: 1010px;
-}
-
-#histoire
-{
-	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-#recette
-{
-	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-	background-repeat: no-repeat;
-	background-size: auto auto;
-}
-
-#mojito-page
-{
-	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-	background-repeat: no-repeat;
-	background-size: contain;
-	min-width:1024px;
-	min-height: 1320px;
-}
-
-
-
-.logo
-{
-	display: block;
-    background: rgb(255, 255, 255);
-    width: 145px;
-    height: 140px;
-    border-radius: 60%;
-    border: 1.5mm solid rgb(212, 191, 121);
-    margin-left: 30px;
-    margin-top: 10px;
-}
-
-img.site-logo
-{
-	width: 120px;
-	height: 85px;
-	margin-top: 30px;
-	margin-left: auto;
-}
-
-.cat
-{
-	width: 160px;
-	height: 170px;
-	margin-top: 20px;
-	margin-left: -4px;
-}
-
-ul
-{
-	margin-top: -100px;
-	margin-left: 210px;
-}
-
-li
-{
-	display: inline-block;
-	margin-top: 30px;
-	list-style-type: none;
-	font-size: 16px;
-}
-
-a
-{
-	color: #ffffff;
-	text-decoration: none;
-	align-items: flex-start;
-	margin-left: 23px;
-	-webkit-transition: color 1s;
-	transition: color 1s;
-	font-size: 21px;
-}
-
-a:hover
-{
-	color: #d4bf79;
-}
-
-.index-title
-{
-	margin-top: -80px;
-	margin-left: 280px;
-	color: #ffffff;
-	text-decoration: underline;
-}
-
-.bienvenue
-{
-	display: block;
-	background: rgb(131,58,180);
-	background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-	width: 800px;
-	height: 600px;
-	margin-top: 110px;
-	margin-left: 300px;
-	border-radius: 5px 5px 5px 5px;
-	border: 1mm solid #d4bf79;
-	
-}
-
-.index-text
-{
-	display: block;
-	line-height: 2em;
-	margin-top: 70px;
-	margin-left: 130px;
-	color: #ffffff;
-	font-size: larger;
-}
-
-.warning
-{
-	width: 130px;
-	height: 130px;
-	rotate: -15deg;
-	margin-top: -5px;
-	margin-left: 15px;
-}
-
-#index-blink
-{
-	margin-top: -95px;
-	margin-left: 170px;
-	color: #ba2fbe;
-	animation: allblink 2s infinite;
-	font-weight: bold;
-	font-size: 20px;
-}
-.blink
-{
-    margin-top: -40px;
-    margin-left: 290px;
-    color: #ba2fbe;
-    animation: allblink 2s infinite;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-@keyframes allblink
-{
-	0%
-	{
-	}
-
-	50%
-	{
-	color:#ffffff }
-}
-
-/*histoire des cocktails*/
-/*chapitre-1*/
-.introduction
-{
-	line-height: 2;
-	color: #ffffff;
-	margin-left: 110px;
-	margin-top: 130px;
-	font-size: large;
-}
-
-.chapitre-1
-{
-	width: fit-content;
-	height: 300px;
-}
-
-.chapitre-2
-{
-	width: fit-content;
-}
-
-.jerry
-{
-	margin-top: 40px;
-	margin-left: 5px;
-	width: 230px;
-}
-
-.guide
-{
-	margin-top: -445px;
-	margin-left: 258px;
-	width: 200px;
-}
-
-/*legendes des photos*/
-.legende
-{
-	color: #fff;
-	margin-top: -22px;
-	margin-left: 1px;
-}
-
-.legende-2
-{
-	color: #ffffff;
-	margin-top: -10px;
-    margin-left: -1px
-}
-
-.legende-3
-{
-	color: #ffffff;
-	margin-top: 0px;
-	margin-left: 55px;
-}
-
-.legende-4
-{
-	color: #ffffff;
-	margin-top: 0px;
-	margin-left: 280px;
-}
-
-.legende-5
-{
-	color: #ffffff;
-	margin-top: 0px;
-	margin-left:-280px;
-}
-
-.legende-6
-{
-	color: #ffffff;
-	margin-top: 60px;
-	margin-left:180px;
-}
-.legende-7
-{
-	color: #ffffff;
-	margin-top: -40px;
-	margin-left:445px;
-}
-.legende-8
-{
-	color: #ffffff;
-	margin-top: -40px;
-	margin-left:680px;
-}
-.legende-9
-{
-	color: #ffffff;
-	margin-top: -45px;
-	margin-left:1045px;
-}
-
-.histoire-4-legende , .histoire-5-legende 
-{
-	display: inline-flex;
-    align-items: flex-start;
-    align-content: space-around;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-left: 125px;
-    width: 950px;
-}
-
-.histoire-6-legende
-{
-	color: #fff;
-	display: inline-flex;
-    align-items: flex-start;
-    align-content: space-around;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-left: 250px;
-    width: 850px;
-}
-/*photos*/
-.photo-1
-{
-	width: 230px;
-	height: 250px;
-	border: 2mm ridge #d4bf79;
-	width: 230px;
-}
-
-.manhattan
-{
-	width: 230px;
-}
-
-.vodka-martini
-{
-	width: 200px;
-}
-
-.photo-2
-{
-	width: 160px;
-	height: 250px;
-	border: 2mm ridge #d4bf79;
-}
-
-.lesDébuts
-{
-    display: block;
-    line-height: 1.6;
-    color: #ffffff;
-    margin-top: -445px;
-    margin-left: 470px;
-}
-
-.cocktail-1
-{
-	margin-top: 170px;
-	margin-left: 5px;
-	display: flex;
-	width: 180px;
-	height: 250px;
-	border: 2mm ridge #d4bf79;
-}
-
-.cocktail-2
-{
-	margin-top: -320px;
-	margin-left: 230px;
-	display: flex;
-	width: 180px;
-	height: 250px;
-	border: 2mm ridge #d4bf79;
-}
-
-.histoire-4-pictures
-{
-	display: flex;
-	margin-top: 80px;
-}
-
-.prohibition
-{
-	margin-top: -220px;
-	margin-left: 290px;
-	width: 200px;
-	color: #ffffff;
-}
-
-.prohibition-text
-{
-	line-height: 200%;
-	margin-top: -350px;
-	margin-left: 456px;
-	color: #ffffff;
-	display: block;
-}
-
-.history
-{
-	margin-top: 280px;
-	margin-left: -285px;
-	display: flex;
-	width: 405px;
-	height: 220px;
-	border: 2mm ridge #d4bf79;
-}
-
-.histoire-2
-{
-	flex-direction: column;
-	display: flex;
-	line-height: 2;
-	color: #fff;
-	margin-top: -720px;
-	margin-left: 460px;
-}
-
-.histoire-3
-{
-	line-height: 2;
-	color: #ffffff;
-	margin-left: 100px;
-	margin-top: 500px;
-}
-
-.histoire-3-pictures
-{
-	display: flex;
-	flex-direction: row;
-	margin-top: 20px;
-	margin-left: 140px;
-	height: 240px;
-}
-
-.mai
-{
-	width: 200px;
-	height: 235px;
-	margin-left: -30px;
-	border: 2mm ridge #d4bf79;
-}
-
-.grass
-{
-	width: 300px;
-	height: 235px;
-	margin-left: 20px;
-	border: 2mm ridge #d4bf79;
-}
-
-.james-bond
-{
-	width: 300px;
-	height: 235px;
-	margin-left: 20px;
-	border: 2mm ridge #d4bf79;
-}
-
-.mad
-{
-	width: 300px;
-	height: 235px;
-	margin-left: 20px;
-	border: 2mm ridge #d4bf79;
-}
-
-.histoire-4
-{
-	display: block;
-    line-height: 2;
-    color: #ffffff;
-    margin-left: 100px;
-    margin-top: 140px;
-}
-
-
-.histoire-4-1
-{
-	margin-top: 20px;
-}
-
-.sex
-{
-	width: 200px;
-	height: 180px;
-	border-radius: 50%;
-	border: 1.2mm solid  #f0eded;
-	margin-left: 260px;
-}
-
-.cosmo
-{
-	width: 200px;
-	height: 180px;
-	border-radius: 50%;
-	border: 1.2mm solid #f0eded;
-	margin-left: 200px;
-}
-
-.histoire-5
-{
-	display: block;
-	margin-top: 100px;
-	line-height: 2;
-}
-
-.histoire-5-pictures
-{
-	margin-top: 1px;
-	margin-left: 90px;
-}
-
-.margarita
-{
-	width: 200px;
-	height: 180px;
-	border-radius: 50%;
-	border: 1.2mm solid #f0eded;
-	margin-left: 169px;
-}
-
-.blue-lagoon
-{
-	width: 200px;
-	height: 180px;
-	border-radius: 50%;
-	border: 1.2mm solid #f0eded;
-	margin-left: 257px;
-}
-
-.histoire-6
-{
-	display: block;
-	margin-top: 80px;
-	line-height: 2;
-	color: #fff;
-}
-
-.histoire-6-pictures
-{
-	display: flex;
-	margin-top: 80px;
-	margin-left: 250px;
-	width: 820px;
-}
-
-.old, .negroni , .tom
-{
-	width: 200px;
-	height: 180px;
-	border: 1.2mm solid#f0eded;
-	border-radius: 50%;
-}
-
-.histoire-7
-{
-	margin-top: 100px;
-	line-height: 2;
-	color: #fff;
-}
-
-.histoire-7-picture
-{
-	margin-top: 25px;
-	margin-left: 590px;
-}
-
-.mixo
-{
-	width: 200px;
-	height: 180px;
-	border: 1.2mm solid#f0eded;
-	border-radius: 50%;
-}
-
-.legende-10
-{
-	color: #fff;
-	margin-top: 0px;
-	margin-left: 520px;
-}
-
-
-
-/*Carte des Cocktails*/
-.cards
-{
-	background: linear-gradient(170deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
-	background-size: cover;
-	background-repeat: no-repeat;
-	border: 2mm solid #d4bf79;
-	border-radius: 5%;
-	width: 250px;
-	height: 350px;
-	display: inline-block;
-	align-items: flex-start;
-	align-content: space-around;
-	margin-top: 100px;
-	margin-left: 250px;
-}
-
-.cocktail-card
-{
-	display: flex;
-	width: 180px;
-	height: 180px;
-	margin-top: 20px;
-	margin-left: 28px;
-	border-radius: 5%;
-	border: 2mm solid #ba2fbe;
-}
-
-.cocktail-name
-{
-	display: flex;
-	font-family: 'Merienda Regular';
-	flex-wrap: wrap;
-	margin-top: auto;
-	margin-left: auto;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-	color: #ffffff;
-}
-
-button
-{
-	display: flex;
-	padding: 1.1em 2em;
-	background: #fcb045;
-	border: 2px solid #fcb045;
-	font-size: 15px;
-	color: #ba2fbe;
-	cursor: pointer;
-	position: relative;
-	overflow: hidden;
-	transition: all 0.3s;
-	border-radius: 40px 40px 40px 40px;
-	font-weight: bolder;
-	text-transform:capitalize;
-	margin: auto;
-	align-items: center;
-	justify-content: center;
-}
-
-button:before
-{
-	content: "";
-	position: absolute;
-	width: 100px;
-	height: 120%;
-	background-color: #fff;
-	top: 50%;
-	transform: skewX(30deg) translate(-150%, -50%);
-	transition: all 0.5s;
-}
-
-button:hover
-{
-	background-color: #ba2fbe;
-	color: #fcb045;
-
-}
-
-button:hover::before
-{
-	transform: skewX(30deg) translate(150%, -50%);
-	transition-delay: 0.1s;
-}
-
-.button:active
-{
-	transform: scale(0.9);
-}
-
-a.btn.btn-primary
-{
-	display: flex;
-	margin-top: 20px;
-	width: 20px;
-	height: 20px;
-	background: #000;
-}
-
-
-
-.arrow
-{
-	width: 90px;
-	height: 90px;
-}
-
-/*Mojito-page*/
-ol
-{
-	display: flex;
-	flex-direction: column;
-}
-
-.mojito-title
-{
-	margin-top: -370px;
-	margin-left: 770px;
-	color: #fff;
-	font-family: Merienda Regular;
-	text-decoration: underline 1mm;
-}
-
-p.name
-{
-	color: #fff;
-	font-size: 24px;
-	text-decoration: underline;
-}
-
-.cat-bar
-{
-	display: flex;
-	width: 100px;
-	height: 90px;
-	margin-top: 15px;
-	margin-left: -320px;
-}
-.cat-bar-2
-{
-	display: flex;
-	width: 100px;
-	height: 90px;
-	margin-top: 15px;
-	margin-left: 320px;
-}
-.mojito-card
-{
-	background-color: #ba2fbe;
-	width: 1200px;
-	height: 410px;
-	margin-top: 120px;
-	margin-left: 100px;
-	border: 2mm solid #d4bf79;
-	border-radius: 5px 5px;
-}
-
-.mojito-recipe-history
-{
-    margin-top: -10px;
-    margin-left: 451px;
-    width: 700px;
-}
-
-
-
-.mojito-recipe-title
-{
-	margin-top: -210px;
-	margin-left: 585px;
-	color: #fff;
-	text-decoration: underline 1mm;
-	font-family: 'Merienda Regular';
-}
-
-.mojito-t
-{
-	font-size: 17px;
-	margin-left: 20px;
-}
-
-.mojito-text
-{
-	color: #fff;
-	font-family: 'Merienda Regular';
-}
-
-.mojito-picture
-{
-	width: 330px;
-    height: 320px;
-    border: 2mm solid #d4bf79;
-    margin-top: 35px;
-    margin-left: 30px;
-}
-
-
-.mojito-video
-{
-	width: 230px;
-	height: 180px;
-	border: 2mm solid #d4bf79;
-	margin-top: 25px;
-	margin-left: 860px;
-}
-
-video
-{
-	margin-top: -34px;
-	margin-left: 0px;
-}
-
-.mojito-recipe
-{
-	line-height: 0;
-	font-family: 'Merienda Regular';
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: -35px;
-	margin-left: 460px;
-	color: #fff;
-}
-
-.message
-{
-	margin-top: 15px;
-	margin-left: -490px;
-	width: 1350px;
-	height: 141px;
-}
-
-h2
-{
-	display: block;
-	color: #fff;
-	text-decoration: underline;
-	font-family: 'Merienda Regular';
-}
-
-.up
-{
-	margin-top: 130px;
-	border: 2mm solid #d4bf79;
-	border-radius: 50%;
-	width: 80px;
-	height: 55px;
-	margin-left: 1150px;
-    
-}
-
-/*cuba-libre-page*/
-.cuba-recipe-history
-{
-	margin-top: 10px;
-    margin-left: 460px;
-    width: 700px;
-}
-
-.cuba-text
-{
-	color: #fff;
-    font-family: 'Merienda Regular';
-    font-size: 39px;
-    line-height: 1;
-    display: inline-block;
-}
-
-.cuba-picture
-{
-	width: 270px;
-	height: 270px;
-	border: 2mm solid #d4bf79;
-	border-radius: 5%;
-	margin-top: 100px;
-	margin-left: 20px;
-}
-
-.cuba-video
-{
-	width: 230px;
-	height: 186px;
-	border: 2mm solid #d4bf79;
-	margin-top: -5px;
-	margin-left: 860px;
-}
-
-video
-{
-	margin-top: -34px;
-	margin-left: 0px;
-}
-
-.cuba-recipe
-{
-	line-height: 0;
-	font-family: 'Merienda Regular';
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: -35px;
-	margin-left: 460px;
-	color: #fff;
-}
-
-.cuba-recipe-title
-{
-	display: flex;
-	margin-top: -190px;
-	margin-left: 570px;
-	text-decoration: underline 1mm;
-	color: #fff;
-}
-
-.message-2
-{
-	margin-top: -50px;
-	margin-left: 30px;
-	width: 990px;
-	height: 141px;
-}
-
-.cat-bar-3
-{
-	display: flex;
-	width: 100px;
-	height: 90px;
-	margin-top: 100px;
-	margin-left: 160px;
-}
-
-/*daiquiri-page*/
-.daiquiri-t
-{
-	font-size: 15px;
-}
-
-.message-3
-{
-	margin-top: -40px;
-	margin-left: -5px;
-	width: 990px;
-	height: 141px;
-}
-
-.cat-bar-4
-{
-	display: flex;
-	width: 100px;
-	height: 90px;
-	margin-top: 40px;
-	margin-left: 160px;
-}
-.daiquiri-recipe-history
-{
-	display: block;
-    width: 760px;
-	margin-top: -25px;
-    margin-left: 430px;
-	line-height: 0.4;
-
-}
-
-.daiquiri-recipe
-{
-	line-height: 0.4;
-	font-family: 'Merienda Regular';
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: -30px;
-	margin-left: 470px;
-	color: #fff;
-}
-
-.daiquiri-video
-{
-	width: 230px;
-	height: 186px;
-	border: 2mm solid #d4bf79;
-	margin-top: 5px;
-	margin-left: 860px;
-}
-
-/*margarita*/
-
-.margarita-t
-{
-	font-size: 15px;
-}
-
-.margarita-recipe-title
-{
-	display: flex;
-	margin-top: -215px;
-	margin-left: 570px;
-	text-decoration: underline 1mm;
-	color: #fff;	
-}
-.margarita-recipe
-{
-	line-height: 0.4;
-	font-family: 'Merienda Regular';
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: -30px;
-	margin-left: 490px;
-	color: #fff;
-}
-
-/*planter's punch*/
-
-.planter-picture
-{
-	width: 310px;
-    height: 380px;
-    border: 2mm solid #d4bf79;
-    margin-top: 7px;
-    margin-left: 20px;
-}
-
-.planter-history
-{
-	display: block;
-    width: 760px;
-    margin-top: 30px;
-    margin-left: 5px;
-    line-height: 1.3;
-    color: #fff;
-
-}
-.planter-recipe-title
-{
-	display: flex;
-	margin-top: -208px;
-	margin-left: 570px;
-	text-decoration: underline 1mm;
-	color: #fff;
-}
-
-.planter-recipe
-{
-	line-height: 0.1;
-	font-family: 'Merienda Regular';
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: -45px;
-	margin-left: 490px;
-	color: #fff;	
-}
-.planter-video
-{
-	width: 230px;
-	height: 186px;
-	border: 2mm solid #d4bf79;
-	margin-top: -20px;
-	margin-left: 860px;
-}
-
-/*americano*/
-.americano-title
-{
-	margin-top: -447px;
-	margin-left: 750px;
-	color: #fff;
-	font-family: Merienda Regular;
-	text-decoration: underline 1mm;
-}
-.americano-card
-{
-	background-color: #ba2fbe;
-	width: 1200px;
-	height: 500px;
-	margin-top: 120px;
-	margin-left: 100px;
-	border: 2mm solid #d4bf79;
-	border-radius: 5px 5px;
-}
-
-.americano-picture
-{
-	width: 360px;
-    height: 360px;
-    border: 2mm solid #d4bf79;
-    margin-top: 60px;
-    margin-left: 10px;
-}
-
-
-.americano-recipe-title
-{
-	display: flex;
-	margin-top: -208px;
-	margin-left: 570px;
-	text-decoration: underline 1mm;
-	color: #fff;
-}
-
-
-.americano-recipe
-{
-	line-height: 0.1;
-	font-family: 'Merienda Regular';
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: -45px;
-	margin-left: 380px;
-	color: #fff;	
-}
-
-.americano-video
-{
-	width: 230px;
-	height: 186px;
-	border: 2mm solid #d4bf79;
-	margin-top: 10px;
-	margin-left: 920px;
-}
+		*
+		{
+			font-size: large;
+			font-family: 'Merienda Regular';
+			::-webkit-scrollbar {
+				height: 15px;
+				width: 15px;
+			}
+			::-webkit-scrollbar-track {
+				border-radius: 5px;
+				background-color: #fcb045;
+			}
+			
+			::-webkit-scrollbar-track:hover {
+				background-color: #d4bf79;
+			}
+			
+			::-webkit-scrollbar-track:active {
+				background-color: #fcb045;
+			}
+			
+			::-webkit-scrollbar-thumb {
+				border-radius: 5px;
+				background-color: #ba2fbe;
+			}
+			
+			::-webkit-scrollbar-thumb:hover {
+				background-color: #62A34B;
+			}
+			
+			::-webkit-scrollbar-thumb:active {
+				background-color: #62A34B;
+			}
+		}
+
+		body
+		{
+			background: linear-gradient(170deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
+
+		/*BACKGROUND*/
+		#index
+		{
+			background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+			background-repeat: no-repeat;
+			min-width:1024px;
+			min-height: 1010px;
+		}
+
+		#histoire
+		{
+			background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#recette
+		{
+			background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+			background-repeat: no-repeat;
+			background-size: auto auto;
+		}
+
+		#mojito-page
+		{
+			background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+			background-repeat: no-repeat;
+			background-size: contain;
+			min-width:1024px;
+			min-height: 1320px;
+		}
+
+		/*INDEX*/
+
+		.logo
+		{
+			display: block;
+			background: rgb(255, 255, 255);
+			width: 145px;
+			height: 140px;
+			border-radius: 60%;
+			border: 1.5mm solid rgb(212, 191, 121);
+			margin-left: 30px;
+			margin-top: 10px;
+		}
+
+		img.site-logo
+		{
+			width: 120px;
+			height: 85px;
+			margin-top: 30px;
+			margin-left: auto;
+		}
+
+		.cat
+		{
+			width: 160px;
+			height: 170px;
+			margin-top: 20px;
+			margin-left: -4px;
+		}
+
+		ul
+		{
+			margin-top: -100px;
+			margin-left: 210px;
+		}
+
+		li
+		{
+			display: inline-block;
+			margin-top: 30px;
+			list-style-type: none;
+			font-size: 16px;
+		}
+
+		a
+		{
+			color: #ffffff;
+			text-decoration: none;
+			align-items: flex-start;
+			margin-left: 23px;
+			-webkit-transition: color 1s;
+			transition: color 1s;
+			font-size: 21px;
+		}
+
+		a:hover
+		{
+			color: #d4bf79;
+		}
+
+		.index-title
+		{
+			margin-top: -80px;
+			margin-left: 280px;
+			color: #ffffff;
+			text-decoration: underline;
+		}
+
+		.bienvenue
+		{
+			display: block;
+			background: rgb(131,58,180);
+			background: linear-gradient(170deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+			width: 800px;
+			height: 600px;
+			margin-top: 110px;
+			margin-left: 300px;
+			border-radius: 5px 5px 5px 5px;
+			border: 1mm solid #d4bf79;
+			
+		}
+
+		.index-text
+		{
+			display: block;
+			line-height: 2em;
+			margin-top: 70px;
+			margin-left: 130px;
+			color: #ffffff;
+			font-size: larger;
+		}
+
+		.warning
+		{
+			width: 130px;
+			height: 130px;
+			rotate: -15deg;
+			margin-top: -5px;
+			margin-left: 15px;
+		}
+
+		#index-blink
+		{
+			margin-top: -95px;
+			margin-left: 170px;
+			color: #ba2fbe;
+			animation: allblink 2s infinite;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		.blink
+		{
+			margin-top: -40px;
+			margin-left: 290px;
+			color: #ba2fbe;
+			animation: allblink 2s infinite;
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		@keyframes allblink
+		{
+			0%
+			{
+			}
+
+			50%
+			{
+			color:#ffffff }
+		}
+
+		/*HISTOIRE DES COCKTAILS*/
+		.introduction
+		{
+			line-height: 2;
+			color: #ffffff;
+			margin-left: 110px;
+			margin-top: 130px;
+			font-size: large;
+		}
+
+		.chapitre-1
+		{
+			width: fit-content;
+			height: 300px;
+		}
+
+		.chapitre-2
+		{
+			width: fit-content;
+		}
+
+		.jerry
+		{
+			margin-top: 40px;
+			margin-left: 5px;
+			width: 230px;
+		}
+
+		.guide
+		{
+			margin-top: -445px;
+			margin-left: 258px;
+			width: 200px;
+		}
+
+		/*LEGENDES*/
+		.legende
+		{
+			color: #fff;
+			margin-top: -22px;
+			margin-left: 1px;
+		}
+
+		.legende-2
+		{
+			color: #ffffff;
+			margin-top: -10px;
+			margin-left: -1px
+		}
+
+		.legende-3
+		{
+			color: #ffffff;
+			margin-top: 0px;
+			margin-left: 55px;
+		}
+
+		.legende-4
+		{
+			color: #ffffff;
+			margin-top: 0px;
+			margin-left: 280px;
+		}
+
+		.legende-5
+		{
+			color: #ffffff;
+			margin-top: 0px;
+			margin-left:-280px;
+		}
+
+		.legende-6
+		{
+			color: #ffffff;
+			margin-top: 60px;
+			margin-left:180px;
+		}
+		.legende-7
+		{
+			color: #ffffff;
+			margin-top: -40px;
+			margin-left:445px;
+		}
+		.legende-8
+		{
+			color: #ffffff;
+			margin-top: -40px;
+			margin-left:680px;
+		}
+		.legende-9
+		{
+			color: #ffffff;
+			margin-top: -45px;
+			margin-left:1045px;
+		}
+
+		.histoire-4-legende , .histoire-5-legende 
+		{
+			display: inline-flex;
+			align-items: flex-start;
+			align-content: space-around;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			margin-left: 125px;
+			width: 950px;
+		}
+
+		.histoire-6-legende
+		{
+			color: #fff;
+			display: inline-flex;
+			align-items: flex-start;
+			align-content: space-around;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			margin-left: 250px;
+			width: 850px;
+		}
+		/*PHOTOS*/
+		.photo-1
+		{
+			width: 230px;
+			height: 250px;
+			border: 2mm ridge #d4bf79;
+			width: 230px;
+		}
+
+		.manhattan
+		{
+			width: 230px;
+		}
+
+		.vodka-martini
+		{
+			width: 200px;
+		}
+
+		.photo-2
+		{
+			width: 160px;
+			height: 250px;
+			border: 2mm ridge #d4bf79;
+		}
+
+		.lesDébuts
+		{
+			display: block;
+			line-height: 1.6;
+			color: #ffffff;
+			margin-top: -445px;
+			margin-left: 470px;
+		}
+
+		.cocktail-1
+		{
+			margin-top: 170px;
+			margin-left: 5px;
+			display: flex;
+			width: 180px;
+			height: 250px;
+			border: 2mm ridge #d4bf79;
+		}
+
+		.cocktail-2
+		{
+			margin-top: -320px;
+			margin-left: 230px;
+			display: flex;
+			width: 180px;
+			height: 250px;
+			border: 2mm ridge #d4bf79;
+		}
+
+		.histoire-4-pictures
+		{
+			display: flex;
+			margin-top: 80px;
+		}
+
+		.prohibition
+		{
+			margin-top: -220px;
+			margin-left: 290px;
+			width: 200px;
+			color: #ffffff;
+		}
+
+		.prohibition-text
+		{
+			line-height: 200%;
+			margin-top: -350px;
+			margin-left: 456px;
+			color: #ffffff;
+			display: block;
+		}
+
+		.history
+		{
+			margin-top: 280px;
+			margin-left: -285px;
+			display: flex;
+			width: 405px;
+			height: 220px;
+			border: 2mm ridge #d4bf79;
+		}
+
+		.histoire-2
+		{
+			flex-direction: column;
+			display: flex;
+			line-height: 2;
+			color: #fff;
+			margin-top: -720px;
+			margin-left: 460px;
+		}
+
+		.histoire-3
+		{
+			line-height: 2;
+			color: #ffffff;
+			margin-left: 100px;
+			margin-top: 500px;
+		}
+
+		.histoire-3-pictures
+		{
+			display: flex;
+			flex-direction: row;
+			margin-top: 20px;
+			margin-left: 140px;
+			height: 240px;
+		}
+
+		.mai
+		{
+			width: 200px;
+			height: 235px;
+			margin-left: -30px;
+			border: 2mm ridge #d4bf79;
+		}
+
+		.grass
+		{
+			width: 300px;
+			height: 235px;
+			margin-left: 20px;
+			border: 2mm ridge #d4bf79;
+		}
+
+		.james-bond
+		{
+			width: 300px;
+			height: 235px;
+			margin-left: 20px;
+			border: 2mm ridge #d4bf79;
+		}
+
+		.mad
+		{
+			width: 300px;
+			height: 235px;
+			margin-left: 20px;
+			border: 2mm ridge #d4bf79;
+		}
+
+		.histoire-4
+		{
+			display: block;
+			line-height: 2;
+			color: #ffffff;
+			margin-left: 100px;
+			margin-top: 140px;
+		}
+
+
+		.histoire-4-1
+		{
+			margin-top: 20px;
+		}
+
+		.sex
+		{
+			width: 200px;
+			height: 180px;
+			border-radius: 50%;
+			border: 1.2mm solid  #f0eded;
+			margin-left: 260px;
+		}
+
+		.cosmo
+		{
+			width: 200px;
+			height: 180px;
+			border-radius: 50%;
+			border: 1.2mm solid #f0eded;
+			margin-left: 200px;
+		}
+
+		.histoire-5
+		{
+			display: block;
+			margin-top: 100px;
+			line-height: 2;
+		}
+
+		.histoire-5-pictures
+		{
+			margin-top: 1px;
+			margin-left: 90px;
+		}
+
+		.margarita
+		{
+			width: 200px;
+			height: 180px;
+			border-radius: 50%;
+			border: 1.2mm solid #f0eded;
+			margin-left: 169px;
+		}
+
+		.blue-lagoon
+		{
+			width: 200px;
+			height: 180px;
+			border-radius: 50%;
+			border: 1.2mm solid #f0eded;
+			margin-left: 257px;
+		}
+
+		.histoire-6
+		{
+			display: block;
+			margin-top: 80px;
+			line-height: 2;
+			color: #fff;
+		}
+
+		.histoire-6-pictures
+		{
+			display: flex;
+			margin-top: 80px;
+			margin-left: 250px;
+			width: 820px;
+		}
+
+		.old, .negroni , .tom
+		{
+			width: 200px;
+			height: 180px;
+			border: 1.2mm solid#f0eded;
+			border-radius: 50%;
+		}
+
+		.histoire-7
+		{
+			margin-top: 100px;
+			line-height: 2;
+			color: #fff;
+		}
+
+		.histoire-7-picture
+		{
+			margin-top: 25px;
+			margin-left: 590px;
+		}
+
+		.mixo
+		{
+			width: 200px;
+			height: 180px;
+			border: 1.2mm solid#f0eded;
+			border-radius: 50%;
+		}
+
+		.legende-10
+		{
+			color: #fff;
+			margin-top: 0px;
+			margin-left: 520px;
+		}
+
+
+
+		/*RECIPE-PAGE*/
+		.cards
+		{
+			background: linear-gradient(170deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+			background-size: cover;
+			background-repeat: no-repeat;
+			border: 2mm solid #d4bf79;
+			border-radius: 5%;
+			width: 250px;
+			height: 350px;
+			display: inline-block;
+			align-items: flex-start;
+			align-content: space-around;
+			margin-top: 100px;
+			margin-left: 250px;
+		}
+
+		.cocktail-card
+		{
+			display: flex;
+			width: 180px;
+			height: 180px;
+			margin-top: 20px;
+			margin-left: 28px;
+			border-radius: 5%;
+			border: 2mm solid #ba2fbe;
+		}
+
+		.cocktail-name
+		{
+			display: flex;
+			font-family: 'Merienda Regular';
+			flex-wrap: wrap;
+			margin-top: auto;
+			margin-left: auto;
+			align-items: center;
+			align-content: center;
+			justify-content: center;
+			color: #ffffff;
+		}
+
+		button
+		{
+			display: flex;
+			padding: 1.1em 2em;
+			background: #fcb045;
+			border: 2px solid #fcb045;
+			font-size: 15px;
+			color: #ba2fbe;
+			cursor: pointer;
+			position: relative;
+			overflow: hidden;
+			transition: all 0.3s;
+			border-radius: 40px 40px 40px 40px;
+			font-weight: bolder;
+			text-transform:capitalize;
+			margin: auto;
+			align-items: center;
+			justify-content: center;
+		}
+
+		button:before
+		{
+			content: "";
+			position: absolute;
+			width: 100px;
+			height: 120%;
+			background-color: #fff;
+			top: 50%;
+			transform: skewX(30deg) translate(-150%, -50%);
+			transition: all 0.5s;
+		}
+
+		button:hover
+		{
+			background-color: #ba2fbe;
+			color: #fcb045;
+
+		}
+
+		button:hover::before
+		{
+			transform: skewX(30deg) translate(150%, -50%);
+			transition-delay: 0.1s;
+		}
+
+		.button:active
+		{
+			transform: scale(0.9);
+		}
+
+		a.btn.btn-primary
+		{
+			display: flex;
+			margin-top: 20px;
+			width: 20px;
+			height: 20px;
+			background: #000;
+		}
+
+
+
+
+
+		/*MOJITO*/
+		ol
+		{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.mojito-title
+		{
+			margin-top: -370px;
+			margin-left: 770px;
+			color: #fff;
+			font-family: Merienda Regular;
+			text-decoration: underline 1mm;
+		}
+
+		p.name
+		{
+			color: #fff;
+			font-size: 24px;
+			text-decoration: underline;
+		}
+
+		.cat-bar
+		{
+			display: flex;
+			width: 100px;
+			height: 90px;
+			margin-top: 15px;
+			margin-left: -320px;
+		}
+		.cat-bar-2
+		{
+			display: flex;
+			width: 100px;
+			height: 90px;
+			margin-top: 15px;
+			margin-left: 320px;
+		}
+		.mojito-card
+		{
+			background-color: #ba2fbe;
+			width: 1200px;
+			height: 410px;
+			margin-top: 120px;
+			margin-left: 100px;
+			border: 2mm solid #d4bf79;
+			border-radius: 5px 5px;
+		}
+
+		.mojito-recipe-history
+		{
+			margin-top: -10px;
+			margin-left: 451px;
+			width: 700px;
+		}
+
+
+
+		.mojito-recipe-title
+		{
+			margin-top: -210px;
+			margin-left: 585px;
+			color: #fff;
+			text-decoration: underline 1mm;
+			font-family: 'Merienda Regular';
+		}
+
+		.mojito-t
+		{
+			font-size: 17px;
+			margin-left: 20px;
+		}
+
+		.mojito-text
+		{
+			color: #fff;
+			font-family: 'Merienda Regular';
+		}
+
+		.mojito-picture
+		{
+			width: 330px;
+			height: 320px;
+			border: 2mm solid #d4bf79;
+			margin-top: 35px;
+			margin-left: 30px;
+		}
+
+
+		.mojito-video
+		{
+			width: 230px;
+			height: 180px;
+			border: 2mm solid #d4bf79;
+			margin-top: 25px;
+			margin-left: 860px;
+		}
+
+		video
+		{
+			margin-top: -34px;
+			margin-left: 0px;
+		}
+
+		.mojito-recipe
+		{
+			line-height: 0;
+			font-family: 'Merienda Regular';
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-top: -35px;
+			margin-left: 460px;
+			color: #fff;
+		}
+
+		.message
+		{
+			margin-top: 15px;
+			margin-left: -490px;
+			width: 1350px;
+			height: 141px;
+		}
+
+		h2
+		{
+			display: block;
+			color: #fff;
+			text-decoration: underline;
+			font-family: 'Merienda Regular';
+		}
+
+		.up
+		{
+			margin-top: 130px;
+			border: 2mm solid #d4bf79;
+			border-radius: 50%;
+			width: 80px;
+			height: 55px;
+			margin-left: 1150px;
+			
+		}
+
+		/*CUBA-LIBRE*/
+		.cuba-recipe-history
+		{
+			margin-top: 10px;
+			margin-left: 460px;
+			width: 700px;
+		}
+
+		.cuba-text
+		{
+			color: #fff;
+			font-family: 'Merienda Regular';
+			font-size: 39px;
+			line-height: 1;
+			display: inline-block;
+		}
+
+		.cuba-picture
+		{
+			width: 270px;
+			height: 270px;
+			border: 2mm solid #d4bf79;
+			border-radius: 5%;
+			margin-top: 100px;
+			margin-left: 20px;
+		}
+
+		.cuba-video
+		{
+			width: 230px;
+			height: 186px;
+			border: 2mm solid #d4bf79;
+			margin-top: -5px;
+			margin-left: 860px;
+		}
+
+		video
+		{
+			margin-top: -34px;
+			margin-left: 0px;
+		}
+
+		.cuba-recipe
+		{
+			line-height: 0;
+			font-family: 'Merienda Regular';
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-top: -35px;
+			margin-left: 460px;
+			color: #fff;
+		}
+
+		.cuba-recipe-title
+		{
+			display: flex;
+			margin-top: -190px;
+			margin-left: 570px;
+			text-decoration: underline 1mm;
+			color: #fff;
+		}
+
+		.message-2
+		{
+			margin-top: -50px;
+			margin-left: 30px;
+			width: 990px;
+			height: 141px;
+		}
+
+		.cat-bar-3
+		{
+			display: flex;
+			width: 100px;
+			height: 90px;
+			margin-top: 100px;
+			margin-left: 160px;
+		}
+
+		/*DAIQUIRI*/
+		.daiquiri-t
+		{
+			font-size: 15px;
+		}
+
+		.message-3
+		{
+			margin-top: -40px;
+			margin-left: -5px;
+			width: 990px;
+			height: 141px;
+		}
+
+		.cat-bar-4
+		{
+			display: flex;
+			width: 100px;
+			height: 90px;
+			margin-top: 40px;
+			margin-left: 160px;
+		}
+		.daiquiri-recipe-history
+		{
+			display: block;
+			width: 760px;
+			margin-top: -25px;
+			margin-left: 430px;
+			line-height: 0.4;
+
+		}
+
+		.daiquiri-recipe
+		{
+			line-height: 0.4;
+			font-family: 'Merienda Regular';
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-top: -30px;
+			margin-left: 470px;
+			color: #fff;
+		}
+
+		.daiquiri-video
+		{
+			width: 230px;
+			height: 186px;
+			border: 2mm solid #d4bf79;
+			margin-top: 5px;
+			margin-left: 860px;
+		}
+
+		/*MARGARITA*/
+
+		.margarita-t
+		{
+			font-size: 15px;
+		}
+
+		.margarita-recipe-title
+		{
+			display: flex;
+			margin-top: -215px;
+			margin-left: 570px;
+			text-decoration: underline 1mm;
+			color: #fff;	
+		}
+		.margarita-recipe
+		{
+			line-height: 0.4;
+			font-family: 'Merienda Regular';
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-top: -30px;
+			margin-left: 490px;
+			color: #fff;
+		}
+
+		/*planter's punch*/
+
+		.planter-picture
+		{
+			width: 310px;
+			height: 380px;
+			border: 2mm solid #d4bf79;
+			margin-top: 7px;
+			margin-left: 20px;
+		}
+
+		.planter-history
+		{
+			display: block;
+			width: 760px;
+			margin-top: 30px;
+			margin-left: 5px;
+			line-height: 1.3;
+			color: #fff;
+
+		}
+		.planter-recipe-title
+		{
+			display: flex;
+			margin-top: -208px;
+			margin-left: 570px;
+			text-decoration: underline 1mm;
+			color: #fff;
+		}
+
+		.planter-recipe
+		{
+			line-height: 0.1;
+			font-family: 'Merienda Regular';
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-top: -45px;
+			margin-left: 490px;
+			color: #fff;	
+		}
+		.planter-video
+		{
+			width: 230px;
+			height: 186px;
+			border: 2mm solid #d4bf79;
+			margin-top: -20px;
+			margin-left: 860px;
+		}
+
+		/*AMERICANO*/
+
+		.americano-title
+		{
+			margin-top: -447px;
+			margin-left: 750px;
+			color: #fff;
+			font-family: Merienda Regular;
+			text-decoration: underline 1mm;
+		}
+		.americano-card
+		{
+			background-color: #ba2fbe;
+			width: 1200px;
+			height: 500px;
+			margin-top: 120px;
+			margin-left: 100px;
+			border: 2mm solid #d4bf79;
+			border-radius: 5px 5px;
+		}
+
+		.americano-picture
+		{
+			width: 360px;
+			height: 360px;
+			border: 2mm solid #d4bf79;
+			margin-top: 60px;
+			margin-left: 10px;
+		}
+
+
+		.americano-recipe-title
+		{
+			display: flex;
+			margin-top: -208px;
+			margin-left: 570px;
+			text-decoration: underline 1mm;
+			color: #fff;
+		}
+
+
+		.americano-recipe
+		{
+			line-height: 0.1;
+			font-family: 'Merienda Regular';
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-top: -45px;
+			margin-left: 380px;
+			color: #fff;	
+		}
+
+		.americano-video
+		{
+			width: 230px;
+			height: 186px;
+			border: 2mm solid #d4bf79;
+			margin-top: 10px;
+			margin-left: 920px;
+		}
+
+		/*NEGRONI*/
+		.negroni-title
+		{
+			display: flex;
+			margin-top: -440px;
+			margin-left: 700px;
+			text-decoration: underline 1mm;
+			color: #fff;
+		}
+		.negroni-recipe-title
+		{
+			display: flex;
+			margin-top: -220px;
+			margin-left: 570px;
+			text-decoration: underline 1mm;
+			color: #fff;
+		}
+		.negroni-card
+		{
+			background-color: #ba2fbe;
+			width: 1200px;
+			height: 500px;
+			margin-top: 120px;
+			margin-left: 100px;
+			border: 2mm solid #d4bf79;
+			border-radius: 5px 5px;
+		}
+
+		.negroni-picture
+		{
+			width: 260px;
+			height: 360px;
+			border: 2mm solid #d4bf79;
+			margin-top: 60px;
+			margin-left: 75px;
+		}
+
+		.cat-bar-5
+		{
+			display: flex;
+			width: 100px;
+			height: 90px;
+			margin-top: 130px;
+			margin-left: 180px;
+		}
+
+		.message-4
+		{
+			margin-top: -40px;
+			margin-left: -5px;
+			width: 990px;
+			height: 141px;
+		}
+
+		.negroni-video
+		{
+			width: 230px;
+			height: 186px;
+			border: 2mm solid #d4bf79;
+			margin-top: 50px;
+			margin-left: 920px;
+		}
+
+		.negroni-recipe
+		{
+			line-height: 0.1;
+			font-family: 'Merienda Regular';
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-top: -35px;
+			margin-left: 420px;
+			color: #fff;	
+		}
+
+		/*COSMOPOLITAN*/
+		.cosmo-title
+		{
+			display: flex;
+			margin-top: -430px;
+			margin-left: 700px;
+			text-decoration: underline 1mm;
+			color: #fff;
+		}
+		.cosmo-recipe-title
+		{
+			display: flex;
+			margin-top: -210px;
+			margin-left: 570px;
+			text-decoration: underline 1mm;
+			color: #fff;
+		}
+		.cosmo-card
+		{
+			background-color: #ba2fbe;
+			width: 1200px;
+			height: 500px;
+			margin-top: 120px;
+			margin-left: 100px;
+			border: 2mm solid #d4bf79;
+			border-radius: 5px 5px;
+		}
+
+		.cosmo-picture
+		{
+			width: 350px;
+			height: 320px;
+			border: 2mm solid #d4bf79;
+			margin-top: 80px;
+			margin-left: 35px;
+		}
+
+		.cat-bar-5
+		{
+			display: flex;
+			width: 100px;
+			height: 90px;
+			margin-top: 130px;
+			margin-left: 180px;
+		}
+
+		.message-4
+		{
+			margin-top: -40px;
+			margin-left: -5px;
+			width: 990px;
+			height: 141px;
+		}
+
+		.cosmo-video
+		{
+			width: 230px;
+			height: 186px;
+			border: 2mm solid #d4bf79;
+			margin-top: -15px;
+			margin-left: 900px;
+		}
+
+		.cosmo-recipe
+		{
+			line-height: 0.1;
+			font-family: 'Merienda Regular';
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-top: -35px;
+			margin-left: 420px;
+			color: #fff;	
+		}
