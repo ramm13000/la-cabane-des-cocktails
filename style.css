@@ -1410,3 +1410,174 @@ color: #fff;
 	width: 990px;
 	height: 141px;
 }
+
+/*TOM COLLIN'S*/
+.tom-title
+{
+	display: flex;
+	margin-top: -430px;
+	margin-left: 700px;
+	text-decoration: underline 1mm;
+	color: #fff;
+}
+
+.tom-recipe-title
+{
+	display: flex;
+	margin-top: -200px;
+	margin-left: 600px;
+	text-decoration: underline 1mm;
+	color: #fff;
+}
+.tom-card
+{
+	background-color: #ba2fbe;
+	width: 1200px;
+	height: 500px;
+	margin-top: 120px;
+	margin-left: 100px;
+	border: 2mm solid #d4bf79;
+	border-radius: 5px 5px;
+}
+
+.tom-picture
+{
+	width: 300px;
+	height: 320px;
+	border: 2mm solid #d4bf79;
+	margin-top: 80px;
+	margin-left: 35px;
+}
+
+.tom-history
+{
+	display: block;
+	width: 760px;
+	margin-top: 3px;
+	margin-left: 400px;
+	line-height: 1.3;
+	color: #fff;
+
+}
+.cat-bar-6
+{
+	display: flex;
+	width: 100px;
+	height: 90px;
+	margin-top: 130px;
+	margin-left: 180px;
+}
+
+.message-5
+{
+	margin-top: -40px;
+	margin-left: -5px;
+	width: 990px;
+	height: 141px;
+}
+
+.tom-video
+{
+	width: 230px;
+	height: 186px;
+	border: 2mm solid #d4bf79;
+	margin-top: -250px;
+	margin-left: 1020px;
+}
+
+.tom-recipe
+{
+	line-height: 0.1;
+	font-family: 'Merienda Regular';
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: -35px;
+	margin-left: 555px;
+	color: #fff;	
+}
+/*OLD FASHIONED*/
+.old-title
+{
+	display: flex;
+	margin-top: -430px;
+	margin-left: 700px;
+	text-decoration: underline 1mm;
+	color: #fff;
+}
+
+.old-recipe-title
+{
+	display: flex;
+	margin-top: -190px;
+	margin-left: 600px;
+	text-decoration: underline 1mm;
+	color: #fff;
+}
+.old-card
+{
+	background-color: #ba2fbe;
+	width: 1200px;
+	height: 500px;
+	margin-top: 120px;
+	margin-left: 100px;
+	border: 2mm solid #d4bf79;
+	border-radius: 5px 5px;
+}
+
+.old-picture
+{
+	width: 300px;
+	height: 320px;
+	border: 2mm solid #d4bf79;
+	margin-top: 80px;
+	margin-left: 35px;
+}
+
+.old-history
+{
+	display: block;
+	width: 760px;
+	margin-top: -10px;
+	margin-left: 400px;
+	line-height: 1.3;
+	color: #fff;
+
+}
+.cat-bar-6
+{
+	display: flex;
+	width: 100px;
+	height: 90px;
+	margin-top: 130px;
+	margin-left: 180px;
+}
+
+.message-5
+{
+	margin-top: -40px;
+	margin-left: -5px;
+	width: 990px;
+	height: 141px;
+}
+
+.old-video
+{
+	width: 230px;
+	height: 186px;
+	border: 2mm solid #d4bf79;
+	margin-top: -210px;
+	margin-left: 1020px;
+}
+
+.old-recipe
+{
+	line-height: 0.1;
+	font-family: 'Merienda Regular';
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: -35px;
+	margin-left: 555px;
+	color: #fff;	
+}
