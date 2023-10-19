@@ -1690,3 +1690,39 @@ a.btn.btn-primary
 	height: 20px;
 	background: #000;
 }
+
+/*Material*/
+.boston
+{
+	width: 1300px;
+	height: 250px;
+	margin-top: 100px;
+}
+.boston-title
+{
+	margin-top: 10px;
+	margin-left: 650px; 
+	color: #fff;
+	text-decoration: underline;
+}
+
+.boston-picture
+{
+	margin-top: -45px;
+	border-radius: 60%;
+	border: 1mm solid #fff;
+	width: 200px;
+	height: 200px;
+}
+.boston-text
+{
+	color: #fff;
+	margin-top: -180px;
+	margin-left: 320px;
+}
+.passoire-text
+{
+	color: #fff;
+	margin-top: -140px;
+	margin-left: 320px;
+}
